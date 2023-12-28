@@ -1,0 +1,68 @@
+@import "../utilities/variables.scss";
+
+.cont {
+
+    height: 256px;
+    width: 1451px;
+    border-radius: 24px;
+    background: $gradient1;
+    display: grid;
+    grid-template-columns: 2fr; // first column width will be content-based, second column takes the remaining space
+    align-items: center;
+    grid-template-areas: "lef righ";
+    overflow: hidden;
+}
+
+.left{ 
+    grid-area: lef;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+
+.date {
+
+    .date_text {
+        font-family: 'Poppins', sans-serif;
+        margin: auto;
+        font-weight: normal;
+        font-size: 20px;
+        color: #C9AFF1;
+      }
+}
+
+.title {
+    .title_text {
+        margin: auto;
+        
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 64px;
+        color: $main_white;
+      }
+}
+
+.subtitle {
+    margin: 0px;
+
+      .subtitle_text {
+        font-family: 'Poppins', sans-serif;
+        margin: auto;
+        font-weight: normal;
+        font-size: 24px;
+        color: $main_white; // white
+      }
+}}
+
+.right {
+    grid-area: righ;
+
+.image {
+    justify-self: end;
+    
+    // Add any additional styles for image alignment and sizing
+
+
+.image_photo {
+    width: 510px;
+
+}}}

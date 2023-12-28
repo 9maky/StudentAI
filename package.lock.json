@@ -1,0 +1,46 @@
+{
+  "name": "student_hub",
+  "version": "0.1.0",
+  "private": true,
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.10.3",
+    "@emotion/react": "^11.10.4",
+    "@emotion/serialize": "^1.1.0",
+    "@emotion/utils": "^1.2.0",
+    "@mui/material": "^5.10.7",
+    "@mui/types": "^7.2.0",
+    "@mui/x-data-grid": "^5.17.4",
+    "axios": "^0.27.2",
+    "next": "12.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "sass": "^1.54.9",
+    "scss": "^0.2.4",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.18",
+    "@types/react": "18.0.20",
+    "@types/react-dom": "18.0.6",
+    "@types/styled-components": "^5.1.26",
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.0",
+    "typescript": "4.8.3"
+  },
+  "compilerOptions": {
+    "lib": ["es6", "dom"],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true
+  }
+}

@@ -1,0 +1,23 @@
+.welcome{
+    grid-area: welcome;
+}
+
+.stats{
+    grid-area: stats;
+}
+
+.todo{
+    margin-top: 48px;
+    grid-area: todo;
+}
+
+.dashboard{
+    margin-left: 393px;
+    margin-top: 128px;
+    display: grid; /* Add display property */
+    grid-template-areas: 
+        "welcome welcome" 
+        "stats todo";
+    grid-template-columns: 1fr 1fr; /* Add grid-template-columns property */
+
+}

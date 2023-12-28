@@ -1,0 +1,92 @@
+@import "../utilities/variables.scss";
+
+.helper_flex {
+  display: "flex";
+  justify-content: "flex-start";
+}
+
+
+.side_nav {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 274px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 40px;
+  background: $gradient;
+  border-radius: 0px 24px 24px 0px;
+
+  .logo {
+    width: 128px;
+    height: 128px;
+    background: $gradient2;
+    border-radius: 32px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logo_icon {
+      width: 80%;
+      height: 80%;
+      color: $main_white;
+      font-size: 64px;
+      margin: auto;
+    }
+    }
+    
+  .link_cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+
+    .titleContainer {
+      width: 205px;
+      padding: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      column-gap: 20px;
+      transition: all 0.2s linear;
+      .sub_title {
+        font-family: $font;
+        font-size: 16px;
+        font-weight: $weight3;
+        color: $nav_light;
+        user-select: none;
+      }
+      .icon {
+        color: $nav_light;
+      }
+      &:hover {
+        padding-left: 15px;
+        border-radius: 20px;
+        color: $main_white;
+        .sub_title {
+          color: $main_white;
+          font-weight: $weight2;
+        }
+        .icon {
+          color: $main_white;
+        }
+        cursor: pointer;
+      }
+    }
+    .menu_cont {
+      position: absolute;
+      bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 50px;
+      
+}
+  }
+}

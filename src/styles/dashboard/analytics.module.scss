@@ -1,0 +1,120 @@
+@import "../utilities/variables.scss";
+
+.container {
+    margin-top: 48px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 754px;
+    
+    .header {
+      display: flex;
+      align-items: center;
+      
+      
+      .title {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: $black1;
+      }
+    }
+  
+    .link {
+      cursor: pointer;
+      font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: $color1;
+    }
+  }
+  
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    
+.progressbar {
+    margin-right: 24px;
+    width: 365px;
+    height: 160px;
+    background: $main_white;
+    box-shadow: $shadow1;
+    border-radius: 12px;
+  
+    .pogress_header {
+      display: flex;
+  
+      .pogress_tekst {
+        font-family: 'Poppins', sans-serif;
+        margin: auto;
+        font-weight: 600;
+        font-size: 18px;
+
+        width: 365px;
+        margin-left: 24px;
+        margin-top: 24px;
+        color: $black1;
+
+      }
+  
+    }
+  
+    .progressbar_cont {
+      display: inline-flex;
+      margin-left: 24px;
+      place-items: center;
+  
+      .progress_bar_cont {
+        width: 318px;
+        height: 40px;
+        margin-top: 25px;
+        position: absolute;
+  
+        .progress_wrapper {
+          border-radius: 25px;
+
+        }
+  
+        .progress_cont {
+          background-color: $color2;
+          border-radius: 73px;
+        }
+  
+        .progress_label {
+          font-size: 20px;
+          display: none;
+        }
+      }
+    }
+  
+    .pogress_footer {
+      display: flex;
+        margin-top: 10px;
+  
+      .pogress_stanje {
+        width: 100px;
+        height: 15px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        margin-right: 170px;
+        line-height: 24px;
+        color: $color1;
+      }
+      .pogress_cilj {
+        width: 100px;
+        height: 15px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+
+        line-height: 24px;
+        color: $color1;
+      }
+    }
+  }
+}
