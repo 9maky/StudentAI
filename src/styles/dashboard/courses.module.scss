@@ -1,0 +1,102 @@
+@import "../utilities/variables.scss";
+
+.container {
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 754px;
+
+  .header {
+    display: flex;
+    align-items: center;
+
+    .title {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      color: $black1;
+    }
+  }
+
+  .link {
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: $color1;
+  }
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 780px;
+
+  .cont {
+    margin-right: 24px;
+    width: 365px;
+    height: 160px;
+    background: $main_white;
+    box-shadow: $shadow1;
+    border-radius: 24px;
+    margin-bottom: 24px;
+
+    .conts {
+      padding-top: 20px;
+      padding-left: 10px;
+      display: inline-flex;
+      margin-left: 24px;
+      place-items: center;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-column-gap: 15px;
+      grid-row-gap: 25px;
+
+      .title {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        width: 190px;
+        line-height: 24px;
+        font-size: 18px;
+        color: $color1;
+        grid-area: 1/1/2/2;
+      }
+
+      .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $color1;
+        border-radius: 25px;
+        width: 128px;
+        height: 40px;
+        grid-area: 2/1/3/2;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        margin-left: -60px;
+
+        &:hover {
+          background-color: darken($color1, 10%);
+          transform: scale(1.05);
+        }
+
+        .view {
+          font-family: "Poppins", sans-serif;
+          font-weight: 500;
+          font-size: 18px;
+          color: white;
+        }
+      }
+
+      .image {
+        grid-area: 1/2/3/3;
+        justify-self: end;
+
+        .image_photo {
+          width: 100px;
+        }
+      }
+    }
+  }
+}

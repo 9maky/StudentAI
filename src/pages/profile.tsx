@@ -15,8 +15,7 @@ const Postavke: NextPage<Props> = () => {
         <div></div>
         <span>Prosječna</span>
       </div>
-      <div>
-      </div>
+      <div></div>
     </>
   );
 };

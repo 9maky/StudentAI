@@ -1,0 +1,10 @@
+@import "../utilities/variables.scss";
+
+.cont {
+  width: 321px;
+  height: 1035px;
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: $shadow1;
+  border-color: $color1;
+}

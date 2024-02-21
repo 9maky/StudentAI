@@ -1,0 +1,67 @@
+@import "../utilities/variables.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+
+  .title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: $black1;
+  }
+}
+
+.cont {
+  width: 1340px;
+  height: 690px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+
+  .box {
+    width: 429px;
+    height: 314px;
+    border-radius: 24px;
+    background: #ffffff;
+    box-shadow: $shadow1;
+    cursor: pointer;
+
+    .image {
+      .image_photo {
+        width: 429px;
+        height: 152px;
+        border-radius: 20px;
+        object-fit: cover;
+      }
+    }
+    .title {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      color: $black1;
+      width: 372px;
+      margin-left: 28px;
+      margin-bottom: 5px;
+    }
+    .desc {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: $black1;
+      width: 372px;
+      margin-left: 28px;
+      margin-bottom: 5px;
+    }
+    .time {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      color: $black1;
+      width: 260px;
+      margin-left: 28px;
+    }
+  }
+}

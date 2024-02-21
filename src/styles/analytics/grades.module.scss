@@ -1,0 +1,111 @@
+@import "../utilities/variables.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+
+  .title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: $black1;
+  }
+}
+.justify_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  column-gap: 10px;
+
+  .teacher_profile {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background: $color1;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: inherit;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  .teacher_title {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: $color1;
+  }
+}
+.justify_content_scroll {
+  overflow-x: scroll;
+
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  column-gap: 5px;
+
+  scrollbar-color: #836ff4 transparent;
+
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #e0e0e0;
+    border-radius: 40px;
+  }
+}
+.table_cont {
+  width: 754px;
+  height: 393px;
+}
+
+.table_btn {
+  width: 80px;
+  height: 41px;
+  padding: 10px;
+  gap: 10px;
+  background: #f7f7f7;
+  border-radius: 12px;
+  border-color: transparent;
+  color: #4376e9;
+
+  .table_btn:hover {
+    border: 0;
+  }
+
+  .table_head {
+    width: 47px;
+    height: 21px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    size: 14px;
+    line-height: 21px;
+    letter-spacing: 1%;
+    align-items: center;
+    color: #1a2b88;
+    text-transform: capitalize;
+  }
+}
+.grade {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 5px;
+}

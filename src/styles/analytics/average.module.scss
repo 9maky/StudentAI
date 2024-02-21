@@ -1,0 +1,23 @@
+@import "../utilities/variables.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+
+  .title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: $black1;
+  }
+}
+
+.cont {
+  width: 1340px;
+  height: 463px;
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: $shadow1;
+
+}

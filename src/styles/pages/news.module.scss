@@ -1,0 +1,17 @@
+.important {
+  grid-area: 1/1/2/2;
+}
+.most {
+  grid-area: 1/2/2/3;
+}
+.recent {
+  grid-area: 2/1/3/3;
+}
+
+.news {
+  margin-left: 393px;
+  margin-top: 128px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+}

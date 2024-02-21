@@ -1,4 +1,8 @@
 import { NextPage } from "next";
+import Important from "../Components/news/important";
+import Most from "../Components/news/most";
+import Recent from "../Components/news/recent";
+import styles from "../styles/pages/news.module.scss";
 
 interface Props {
   userAgent?: string;
@@ -8,14 +12,16 @@ interface Props {
 const Postavke: NextPage<Props> = () => {
   return (
     <>
-      <div>
-        <span>Artimetička sredina</span>
-        <div></div>
-        <span>Sopstvena</span>
-        <div></div>
-        <span>Prosječna</span>
-      </div>
-      <div>
+      <div className={styles.news}>
+        <div className={styles.important}>
+          <Important></Important>
+        </div>
+        <div className={styles.most}>
+          <Most></Most>
+        </div>
+        <div className={styles.recent}>
+          <Recent></Recent>
+        </div>
       </div>
     </>
   );

@@ -25,7 +25,7 @@ export const navbar_links: navbar_link[] = [
       </div>
     ),
   },
-  {
+/*  {
     title: "AI Tutors",
     route: "/ai_tutors",
     as: "/ai_tutors",
@@ -34,7 +34,7 @@ export const navbar_links: navbar_link[] = [
         <FaChalkboardTeacher className={styles.icon} size="1.4em" />
       </div>
     ),
-  },
+  },*/
   {
     title: "Analytics",
     route: "/analytics",
@@ -45,7 +45,7 @@ export const navbar_links: navbar_link[] = [
       </div>
     ),
   },
-  {
+ /* {
     title: "Courses",
     route: "/courses",
     as: "/courses",
@@ -54,7 +54,7 @@ export const navbar_links: navbar_link[] = [
         <SiGoogleanalytics className={styles.icon} size="1.4em" />
       </div>
     ),
-  },
+  },*/
   {
     title: "News",
     route: "/news",
@@ -65,7 +65,7 @@ export const navbar_links: navbar_link[] = [
       </div>
     ),
   },
-  {
+ /* {
     title: "Profile",
     route: "/profile",
     as: "/profile",
@@ -74,7 +74,7 @@ export const navbar_links: navbar_link[] = [
         <BsBook className={styles.icon} size="1.4em" />
       </div>
     ),
-  },
+  },*/
   {
     title: "Logout",
     route: "/logout",

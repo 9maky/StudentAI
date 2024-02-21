@@ -1,18 +1,17 @@
 @import "../utilities/variables.scss";
 
 .header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 12px;
-    
-    
-    .title {
-      font-family: 'Poppins', sans-serif;
-      font-weight: 600;
-      font-size: 20px;
-      color: $black1;
-    }
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+
+  .title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: $black1;
   }
+}
 
 .todos_cont {
   width: 290px;
@@ -21,7 +20,7 @@
   border-radius: 20px;
   background: #ffffff;
   box-shadow: $shadow1;
- 
+
   .todo_scroll {
     height: 340px;
     margin-left: -10px;
@@ -46,7 +45,7 @@
     margin-bottom: 19px;
     border: 1px solid #f0f0f0;
     box-shadow: $shadow2;
-    
+
     border-radius: 17px;
     background-color: #ffffff;
     font-family: $font;
@@ -59,10 +58,9 @@
     align-items: center;
     justify-content: center;
 
-    &:hover{
+    &:hover {
       box-shadow: 4px 4px 7.5px 4px rgba(0, 0, 0, 0.04);
       color: $black2;
-      
     }
 
     .to_do_remove_button {
@@ -88,9 +86,7 @@
       }
 
       .todo_btn_line {
-
         transform: translate(-2.5px, 1px);
-
       }
     }
   }
@@ -120,11 +116,9 @@
     font-size: 14px;
     color: #000000;
 
-
     &:focus {
       border: none;
       outline: none;
-
     }
   }
 
